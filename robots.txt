@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://plume-et-chantilly.vercel.app/sitemap.xml

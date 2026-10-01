@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="fr">
+<script>document.documentElement.classList.add("js")</script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plume &amp; Chantilly · Pâtisserie maison sur commande à Arganchy (Bessin)</title>
+  <meta name="description" content="Pâtisseries maison sur commande par Christelle à Arganchy : number cakes personnalisés, tartes aux fruits, gâteaux chantilly. Retrait ou livraison dans un rayon de 15 km autour de Bayeux.">
+  <meta name="theme-color" content="#F7F5F0">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://plume-et-chantilly.vercel.app/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Plume &amp; Chantilly · Pâtisserie maison à Arganchy">
+  <meta property="og:description" content="Gâteaux légers et raffinés, faits à la main sur commande. Retrait ou livraison 15 km autour d'Arganchy.">
+  <meta property="og:image" content="https://plume-et-chantilly.vercel.app/img/gateau-figues.jpg">
+  <meta property="og:locale" content="fr_FR">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "name": "Plume & Chantilly",
+    "description": "Pâtisserie maison sur commande : number cakes, tartes aux fruits, gâteaux chantilly.",
+    "image": "https://plume-et-chantilly.vercel.app/img/gateau-figues.jpg",
+    "url": "https://plume-et-chantilly.vercel.app/",
+    "telephone": "+33669960948",
+    "email": "christelle.lecornu3107@gmail.com",
+    "priceRange": "€€",
+    "address": {"@type": "PostalAddress", "addressLocality": "Arganchy", "postalCode": "14400", "addressCountry": "FR"},
+    "areaServed": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 49.2386, "longitude": -0.7364}, "geoRadius": "15000"}
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo" aria-label="Plume & Chantilly, retour en haut">
+      <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true"><path d="M30 6C18 8 10 17 9 32l2 1c2-6 5-10 9-13-3 4-5 8-6 12 9-2 15-9 17-18 1-3 0-6-1-8Z" fill="currentColor"/></svg>
+      <span>Plume <em>&amp;</em> Chantilly</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Ouvrir le menu"><span></span><span></span></button>
+    <nav id="nav" class="nav">
+      <a href="#creations">Créations</a>
+      <a href="#commander">Comment commander</a>
+      <a href="#apropos">À propos</a>
+      <a href="#allergenes">Allergènes</a>
+      <a href="#commande" class="btn btn-small">Commander</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <picture>
+      <source srcset="img/gateau-figues.webp" type="image/webp">
+      <img src="img/gateau-figues.jpg" alt="Gâteau chantilly garni de figues fraîches" class="hero-img" width="1800" height="811" fetchpriority="high">
+    </picture>
+    <div class="hero-overlay"></div>
+    <div class="wrap hero-content">
+      <p class="eyebrow">Pâtisserie maison · Arganchy, Bessin</p>
+      <h1>Des gâteaux légers,<br><em>faits à la main</em> pour vos moments.</h1>
+      <p class="hero-sub">Number cakes, tartes aux fruits, gâteaux chantilly… préparés sur commande avec des fruits frais, par Christelle.</p>
+      <div class="hero-cta">
+        <a href="#commande" class="btn">Demander un gâteau</a>
+        <a href="#creations" class="btn btn-ghost">Voir les créations</a>
+      </div>
+      <ul class="hero-badges">
+        <li>Sur commande 48 h avant</li>
+        <li>Retrait ou livraison 15 km</li>
+        <li>Fruits frais de saison</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CREATIONS -->
+  <section id="creations" class="section">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="eyebrow">La carte</p>
+        <h2>Les créations</h2>
+        <p>Chaque gâteau est préparé à la demande. Les prix sont indiqués « à partir de » : le tarif final dépend du nombre de parts et de la décoration choisie.</p>
+      </header>
+
+      <div class="cards">
+
+        <article class="card reveal">
+          <div class="card-img">
+            <picture><source srcset="img/number-cake.webp" type="image/webp"><img src="img/number-cake.jpg" alt="Number cake chiffre 5 thème licorne, crèmes colorées et macarons" loading="lazy" width="900" height="1125"></picture>
+            <span class="tag">Sur mesure</span>
+          </div>
+          <div class="card-body">
+            <h3>Number &amp; letter cakes</h3>
+            <p>Le chiffre ou la lettre de votre choix, garni de crème montée, macarons et fruits. Thème et couleurs personnalisés.</p>
+            <ul class="prices">
+              <li><span>1 chiffre ou lettre · 8-10 parts</span><b>dès 45 €</b></li>
+              <li><span>2 chiffres ou lettres · 16-20 parts</span><b>dès 85 €</b></li>
+              <li><span>Décor à thème (licorne, prénom, couronne…)</span><b>+10 à 15 €</b></li>
+            </ul>
+            <p class="note">À commander au moins 7 jours avant.</p>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-img">
+            <picture><source srcset="img/tarte-fraises.webp" type="image/webp"><img src="img/tarte-fraises.jpg" alt="Tarte aux fraises nappée et myrtilles" loading="lazy" width="900" height="1125"></picture>
+          </div>
+          <div class="card-body">
+            <h3>Tartes aux fruits</h3>
+            <p>Pâte sablée, crème pâtissière vanille et fruits frais nappés.</p>
+            <ul class="prices">
+              <li><span>Tarte aux fraises · 6 / 8 parts</span><b>dès 24 € / 30 €</b></li>
+              <li><span>Tarte aux fruits rouges · 6 / 8 parts</span><b>dès 26 € / 32 €</b></li>
+              <!-- À activer quand Christelle confirme :
+              <li><span>Tarte citron meringuée · 6 / 8 parts</span><b>dès 24 € / 30 €</b></li>
+              -->
+            </ul>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-img">
+            <picture><source srcset="img/gateau-fruits-rouges.webp" type="image/webp"><img src="img/gateau-fruits-rouges.jpg" alt="Gâteau chantilly aux fraises, cerises et myrtilles" loading="lazy" width="900" height="1125"></picture>
+          </div>
+          <div class="card-body">
+            <h3>Gâteaux chantilly</h3>
+            <p>Biscuit moelleux, chantilly légère et fruits frais disposés à la main.</p>
+            <ul class="prices">
+              <li><span>Fruits rouges &amp; cerises · 6 / 8 parts</span><b>dès 28 € / 35 €</b></li>
+              <li><span>Figues fraîches <small>(août-octobre)</small> · 6 / 8 parts</span><b>dès 30 € / 38 €</b></li>
+              <!-- À activer quand Christelle confirme :
+              <li><span>Fraisier · 6 / 8 parts</span><b>dès 32 € / 40 €</b></li>
+              -->
+            </ul>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-img">
+            <picture><source srcset="img/tartelettes.webp" type="image/webp"><img src="img/tartelettes.jpg" alt="Trois tartelettes individuelles chantilly, fraises, cerises et myrtilles" loading="lazy" width="900" height="1125"></picture>
+          </div>
+          <div class="card-body">
+            <h3>Gourmandises individuelles</h3>
+            <p>Mini-gâteaux et tartelettes, parfaits pour un buffet, un goûter ou un cadeau.</p>
+            <ul class="prices">
+              <li><span>Tartelette ou mini-gâteau</span><b>4,50 € pièce</b></li>
+              <li><span>Coffret de 6</span><b>25 €</b></li>
+              <!-- À activer quand Christelle confirme :
+              <li><span>Boîte de 12 macarons</span><b>15 €</b></li>
+              <li><span>Cupcakes · les 6</span><b>18 €</b></li>
+              -->
+            </ul>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="center muted reveal">Une envie qui n'est pas dans la carte ? <a href="#commande">Décrivez-la</a>, Christelle vous fait un devis.</p>
+    </div>
+  </section>
+
+  <!-- COMMENT COMMANDER -->
+  <section id="commander" class="section section-alt">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="eyebrow">Simple et sans paiement en ligne</p>
+        <h2>Comment commander</h2>
+      </header>
+      <ol class="steps stagger">
+        <li><span class="step-n">1</span><h3>Votre demande</h3><p>Remplissez le formulaire ou écrivez sur WhatsApp : date, nombre de parts, envies.</p></li>
+        <li><span class="step-n">2</span><h3>La confirmation</h3><p>Christelle vous recontacte sous 24 h pour valider la création et le prix.</p></li>
+        <li><span class="step-n">3</span><h3>La préparation</h3><p>Votre gâteau est réalisé à la main, avec des fruits frais, la veille ou le jour même.</p></li>
+        <li><span class="step-n">4</span><h3>Retrait ou livraison</h3><p>Vous le récupérez à Arganchy ou on vous le livre. Règlement à la remise.</p></li>
+      </ol>
+
+      <div class="infos stagger">
+        <div class="info">
+          <h3>Délais</h3>
+          <p><b>48 h minimum</b> avant la date souhaitée.<br><b>7 jours</b> pour les number cakes et les grosses commandes.</p>
+        </div>
+        <div class="info">
+          <h3>Retrait</h3>
+          <p><b>Gratuit</b> à Arganchy (14400), sur créneau convenu ensemble.</p>
+        </div>
+        <div class="info">
+          <h3>Livraison</h3>
+          <p><b>Offerte</b> jusqu'à 5 km.<br><b>5 €</b> de 5 à 15 km autour d'Arganchy (Bayeux, Balleroy, Le Molay-Littry…).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- A PROPOS -->
+  <section id="apropos" class="section">
+    <div class="wrap about">
+      <div class="about-img reveal from-left">
+        <picture><source srcset="img/gateau-figues-carre.webp" type="image/webp"><img src="img/gateau-figues-carre.jpg" alt="Détail d'un gâteau aux figues et rosaces de chantilly" loading="lazy" width="900" height="865"></picture>
+      </div>
+      <div class="about-text reveal from-right">
+        <p class="eyebrow">À propos</p>
+        <h2>Bonjour, moi c'est Christelle</h2>
+        <p>Passionnée de pâtisserie, je prépare chaque gâteau chez moi, à Arganchy, avec <b>minutie</b> et le goût du détail : une rosace de chantilly bien posée, une fraise coupée au bon endroit, un équilibre qui reste <b>léger</b>.</p>
+        <p>J'aime les desserts <b>raffinés mais simples</b>, qui mettent en valeur de beaux fruits frais. Anniversaire, baptême, repas de famille ou simple envie : racontez-moi votre moment, je m'occupe du gâteau.</p>
+        <p class="signature">Christelle</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULAIRE -->
+  <section id="commande" class="section section-alt">
+    <div class="wrap form-wrap">
+      <header class="section-head reveal">
+        <p class="eyebrow">Demande de commande</p>
+        <h2>Commander un gâteau</h2>
+        <p>Envoyez votre demande, Christelle vous recontacte pour confirmer. Rien n'est payé en ligne.</p>
+      </header>
+
+      <div class="form-grid">
+        <form id="order-form" class="order-form reveal from-left" action="https://formsubmit.co/christelle.lecornu3107@gmail.com" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="Nouvelle demande de commande · Plume & Chantilly">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <div class="field-row">
+            <label>Nom et prénom *<input type="text" name="Nom" required autocomplete="name"></label>
+            <label>Téléphone *<input type="tel" name="Telephone" required autocomplete="tel" pattern="[0-9 +.]{10,}"></label>
+          </div>
+          <label>E-mail<input type="email" name="email" autocomplete="email"></label>
+
+          <div class="field-row">
+            <label>Création souhaitée *
+              <select name="Creation" id="creation" required>
+                <option value="">Choisir…</option>
+                <option>Number / letter cake</option>
+                <option>Tarte aux fraises</option>
+                <option>Tarte aux fruits rouges</option>
+                <option>Gâteau chantilly fruits rouges</option>
+                <option>Gâteau chantilly figues</option>
+                <option>Tartelettes / mini-gâteaux</option>
+                <option>Autre (à décrire)</option>
+              </select>
+            </label>
+            <label>Nombre de parts *<input type="number" name="Parts" min="1" max="80" required></label>
+          </div>
+
+          <div class="field-row">
+            <label>Date souhaitée *<input type="date" name="Date" id="date" required></label>
+            <fieldset class="radios">
+              <legend>Remise *</legend>
+              <label class="radio"><input type="radio" name="Remise" value="Retrait à Arganchy" checked> Retrait</label>
+              <label class="radio"><input type="radio" name="Remise" value="Livraison"> Livraison</label>
+            </fieldset>
+          </div>
+          <p class="hint" id="date-hint" hidden></p>
+
+          <label id="address-field" hidden>Adresse de livraison *<input type="text" name="Adresse" autocomplete="street-address" placeholder="N°, rue, commune"></label>
+
+          <label>Thème, décoration, message<textarea name="Details" rows="4" placeholder="Ex. : chiffre 6, thème licorne, couleurs rose et doré, prénom Léa…"></textarea></label>
+          <label>Allergies ou intolérances à signaler<input type="text" name="Allergies" placeholder="Ex. : fruits à coque"></label>
+
+          <label class="check"><input type="checkbox" name="Consentement" value="Oui" required><span>J'accepte que ces informations soient utilisées uniquement pour traiter ma demande (<a href="mentions-legales.html#donnees">en savoir plus</a>). *</span></label>
+
+          <button type="submit" class="btn btn-full">Envoyer ma demande</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <aside class="contact-card reveal from-right">
+          <h3>Une question rapide ?</h3>
+          <p>Écrivez directement à Christelle sur WhatsApp.</p>
+          <a class="btn btn-whatsapp" href="https://wa.me/33669960948?text=Bonjour%20Christelle%2C%20je%20souhaiterais%20commander%20un%20g%C3%A2teau%20%3A%20" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+            WhatsApp
+          </a>
+          <ul class="contact-list">
+            <li><a href="tel:+33669960948">06 69 96 09 48</a></li>
+            <li><a href="mailto:christelle.lecornu3107@gmail.com">christelle.lecornu3107@gmail.com</a></li>
+            <li>Arganchy (14400) · Bessin</li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ALLERGENES -->
+  <section id="allergenes" class="section">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="eyebrow">Information consommateur</p>
+        <h2>Allergènes</h2>
+        <p>Toutes les pâtisseries sont préparées dans une cuisine où sont manipulés les 14 allergènes réglementaires. Des traces sont possibles. Signalez toute allergie lors de la commande.</p>
+      </header>
+      <div class="table-scroll reveal">
+        <table class="allergens">
+          <thead><tr><th>Création</th><th>Gluten</th><th>Œufs</th><th>Lait</th><th>Fruits à coque</th></tr></thead>
+          <tbody>
+            <tr><td>Number &amp; letter cakes</td><td>●</td><td>●</td><td>●</td><td>● <small>(macarons)</small></td></tr>
+            <tr><td>Tartes aux fruits</td><td>●</td><td>●</td><td>●</td><td>Traces</td></tr>
+            <tr><td>Gâteaux chantilly</td><td>●</td><td>●</td><td>●</td><td>Traces</td></tr>
+            <tr><td>Tartelettes / mini-gâteaux</td><td>●</td><td>●</td><td>●</td><td>Traces</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted small">● contient. La liste détaillée des ingrédients de chaque création est disponible sur simple demande.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <p class="logo logo-footer">Plume <em>&amp;</em> Chantilly</p>
+      <p>Pâtisserie maison sur commande · Arganchy, Bessin</p>
+    </div>
+    <div class="footer-links">
+      <a href="#commande">Commander</a>
+      <a href="https://wa.me/33669960948" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+    </div>
+  </div>
+  <p class="wrap copyright">© <span id="year">2026</span> Plume &amp; Chantilly</p>
+</footer>
+
+<a class="wa-float" href="https://wa.me/33669960948?text=Bonjour%20Christelle%2C%20" target="_blank" rel="noopener" aria-label="Écrire sur WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
